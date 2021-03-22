@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/home/tinydik96/School/programming/tai-tdd-1/tests" tests="5" assertions="7" errors="1" warnings="0" failures="2" skipped="0" time="0.000852">
+    <testsuite name="DrugiTest" file="/home/tinydik96/School/programming/tai-tdd-1/tests/DrugiTest.php" tests="2" assertions="4" errors="0" warnings="0" failures="1" skipped="0" time="0.000298">
+      <testcase name="testTwoObjects" class="DrugiTest" classname="DrugiTest" file="/home/tinydik96/School/programming/tai-tdd-1/tests/DrugiTest.php" line="9" assertions="3" time="0.000202">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">DrugiTest::testTwoObjects
+A NULL nie jest tablicą
+Failed asserting that null is of type "array".
+
+/home/tinydik96/School/programming/tai-tdd-1/tests/DrugiTest.php:19</failure>
+      </testcase>
+      <testcase name="testNumerek" class="DrugiTest" classname="DrugiTest" file="/home/tinydik96/School/programming/tai-tdd-1/tests/DrugiTest.php" line="24" assertions="1" time="0.000095"/>
+    </testsuite>
+    <testsuite name="LabelTest" file="/home/tinydik96/School/programming/tai-tdd-1/tests/LabelTest.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.000186">
+      <testcase name="testDisplay" class="LabelTest" classname="LabelTest" file="/home/tinydik96/School/programming/tai-tdd-1/tests/LabelTest.php" line="7" assertions="0" time="0.000186">
+        <error type="ArgumentCountError">LabelTest::testDisplay
+ArgumentCountError: Too few arguments to function Label::__construct(), 1 passed in /home/tinydik96/School/programming/tai-tdd-1/tests/LabelTest.php on line 8 and exactly 3 expected
+
+/home/tinydik96/School/programming/tai-tdd-1/src/Label.php:8
+/home/tinydik96/School/programming/tai-tdd-1/tests/LabelTest.php:8</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="PierwszyTest" file="/home/tinydik96/School/programming/tai-tdd-1/tests/PierwszyTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="1" skipped="0" time="0.000369">
+      <testcase name="testGreetings" class="PierwszyTest" classname="PierwszyTest" file="/home/tinydik96/School/programming/tai-tdd-1/tests/PierwszyTest.php" line="9" assertions="2" time="0.000241">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">PierwszyTest::testGreetings
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'The Fake is a Lie'
++'The Cake is a Lie'
+
+/home/tinydik96/School/programming/tai-tdd-1/tests/PierwszyTest.php:19</failure>
+      </testcase>
+      <testcase name="testGoodbye" class="PierwszyTest" classname="PierwszyTest" file="/home/tinydik96/School/programming/tai-tdd-1/tests/PierwszyTest.php" line="22" assertions="1" time="0.000128"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
