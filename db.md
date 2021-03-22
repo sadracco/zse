@@ -19,7 +19,7 @@ $db = new SQLite3('db.db', SQLITE3_OPEN_CREATE | SQLITE3_OPEN_READWRITE);
 
 $db->close() // closing connection
 $res = $db->query('SELECT * FROM cars'); // query
-$version = $db->querySingle('SELECT SQLITE_VERSION()'); // query returinig single value
+$version = $db->querySingle('SELECT SQLITE_VERSION()'); // query returning single value
 $db->exec("INSERT INTO cars(name, price) VALUES('Audi', 52642)"); // query without a result
 ```
 
